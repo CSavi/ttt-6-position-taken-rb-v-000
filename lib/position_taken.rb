@@ -1,8 +1,8 @@
 # code your #position_taken? method here!
 my_board =[" ", " ", " ", " ", " ", " ", " ", " ", " "]
-def position_taken?(board, index)
+def position_taken?(board, cat)
   
-  !(board[index] == " " || board[index] == "" || board[index] == nil)
+  !(board[cat] == " " || board[cat] == "" || board[cat] == nil)
  
     
 end
